@@ -10,8 +10,12 @@
   float: left;
   width: 33.3%;
   padding: 10px;
+  box-shadow: 10px 10px #FAF9F6;
 }
-
+table, th, td {
+  border:1px groove black;
+  border-collapse: collapse;
+}
 .row:after {
   content: "";
   display: table;
@@ -47,6 +51,65 @@ body{
         <h4>Malayalam novelist Sethu chosen for Ezhuthachan Puraskaram</h4>
     </a>
   </div>
+  <div >
+
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <center>
+      <h4>Cricket Live Scores</h4>
+    </center>
+    <table style="width: 100%; font-family: Rubik, sans-serif;">
+      <tr>
+        <th colspan="3">Men's T20 World Cup</th>
+      </tr>
+      <tr>
+        <th colspan="2">Team</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Australia</td>
+        <td>India</td>
+        <td>120 134</td>
+      </tr>
+      <tr>
+        <td>Bangladesh</td>
+        <td>150 120</td>
+      </tr>
+    </table>
+  </div>
+  <div class="column">
+    <ul>
+      <li><h5>Twitter user explains why Musk decided to charge for blue ticks. Elon agrees</h5></li>
+      <li><h5>CBI court convicts six men of evading customs duty of ₹4.25-cr in 2000</h5></li>
+      <li><h5>Traffic mismanagement causing snarls during school dismissals in Lucknow</h5></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h4>Subscribe to our newsletters</h4>
+    <form style="font-family: Rubik, sans-serif; font-size: small;">
+      &nbsp;<label for="fname">Name:</label>&nbsp;
+      <input type="text" id="fname" name="fname">
+      <ol>
+        <li><input type="checkbox" name="cat1" value="Current Affairs">
+          <label for="cat1">Current Affairs</label><br></li>
+        <li>
+          <input type="checkbox" name="cat2" value="Lifestyle">
+          <label for="cat2">Lifestyle</label>
+        </li>
+        <li>
+          <input type="checkbox" name="cat2" value="sports">
+          <label for="cat2">Sports</label>
+        </li>
+      </ol>
+      &nbsp;<label for="email">Email:</label>&nbsp;
+      <input type="email" id="email" name="email"><br><br>&nbsp;
+      <input type="submit" value="Submit">
+      <input type="reset">
+    </form>
+  </div>
+
 </div>
 <footer>
     <center>
