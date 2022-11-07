@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link href='https://fonts.googleapis.com/css?family=Playfair Display SC' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Charmonman' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Cinzel Decorative' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=DynaPuff' rel='stylesheet'>
+<title>Lab 2 - HTML</title>
+<style>
+* {
+  box-sizing: border-box;
+}
+.column {
+  float: left;
+  width: 33.3%;
+  padding: 10px;
+  
+  height: 67%;
+  border-radius: 25px;
+  
+}
+table, th, td {
+  border:1px groove black;
+  border-collapse: collapse;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.heady {
+  background-color: #8f246b;
+  width: 100%;
+  height: 70%;
+  font-family: 'Cinzel Decorative';
+  font-size: 22px;
+}
+body{
+    font-family: Georgia, serif;
+}
+</style>
+</head>
+<body>
+<center>
+    <!--<h1 style="font-family: 'Playfair Display SC';">AZI NEWS PORTAL</h1>!-->
+</center>
+
+  <center>
+    <h2 style="font-family: 'DynaPuff';font-size: 35px;color: #330033;">
+      AZI NEWS PORTAL
+    </h2>
+  </center>
+<div class="row">
+  <div class="column">
+    <img src="bridgeCollapse.jpeg" width="100%" height="220px">
+    <a href="https://edition.cnn.com/2022/11/01/india/india-gujarat-morbi-bridge-collapse-explainer-intl-hnk/index.html">
+        <h4>What we know about India’s deadly bridge collapse</h4>
+    </a>
+  </div>
+  <div class="column">
+    <img src="chennai.jpeg" width="100%" height="220px">
+    <a href="https://www.ndtv.com/chennai-news/chennai-rains-2-dead-in-chennai-as-heavy-rain-hits-tamil-nadu-7-districts-shut-schools-3482042">
+        <h4>2 Dead In Chennai As Heavy Rain Hits Tamil Nadu, 7 Districts Shut Schools</h4>
+    </a>
+  </div>
+  <div class="column">
+    <img src="setu.jpeg" width="100%" height="220px">
+    <a href="https://timesofindia.indiatimes.com/city/kochi/malayalam-novelist-sethu-chosen-for-ezhuthachan-puraskaram/articleshow/95244876.cms">
+        <h4>Malayalam novelist Sethu chosen for Ezhuthachan Puraskaram</h4>
+    </a>
+  </div>
+  <div class="column">
+    <video src="news.mp4" poster="ukraine.jpg"  width="100%" autoplay="autoplay" height="220px" controls>
+      This is fallback content to display for user agents that do not support the video tag.
+    </video>
+    <h4>Ukraine's military find something they feared searching for missing soldiers</h4>
+  </div>
+  <div >
+
+  </div>
+</div>
+<div class="row">
+  <div class="column">
+    <center>
+      <h4>Cricket Live Scores</h4>
+    </center>
+    <table style="width: 100%; font-family: Rubik, sans-serif;">
+      <tr>
+        <th colspan="3">Men's T20 World Cup</th>
+      </tr>
+      <tr>
+        <th colspan="2">Team</th>
+        <th>Score</th>
+      </tr>
+      <tr>
+        <td rowspan="2">Australia</td>
+        <td>India</td>
+        <td>120 134</td>
+      </tr>
+      <tr>
+        <td>Bangladesh</td>
+        <td>150 120</td>
+      </tr>
+    </table>
+  </div>
+  <div class="column">
+    <ul>
+      <li><h5>Twitter user explains why Musk decided to charge for blue ticks. Elon agrees</h5></li>
+      <li><h5>CBI court convicts six men of evading customs duty of ₹4.25-cr in 2000</h5></li>
+      <li><h5>Traffic mismanagement causing snarls during school dismissals in Lucknow</h5></li>
+    </ul>
+  </div>
+  <div class="column">
+    <h4>Subscribe to our newsletters</h4>
+    <form style="font-family: Rubik, sans-serif; font-size: small;">
+      &nbsp;<label for="fname">Name:</label>&nbsp;
+      <input type="text" id="fname" name="fname">
+      <ol>
+        <li><input type="checkbox" name="cat1" value="Current Affairs">
+          <label for="cat1">Current Affairs</label><br></li>
+        <li>
+          <input type="checkbox" name="cat2" value="Lifestyle">
+          <label for="cat2">Lifestyle</label>
+        </li>
+        <li>
+          <input type="checkbox" name="cat2" value="sports">
+          <label for="cat2">Sports</label>
+        </li>
+      </ol>
+      &nbsp;<label for="email">Email:</label>&nbsp;
+      <input type="email" id="email" name="email"><br><br>&nbsp;
+      <input type="submit" value="Submit">
+      <input type="reset">
+    </form>
+  </div>
+
+</div>
+<footer>
+    <center>
+        <img src="logos.png" height="42px" usemap="#workmap">
+    </center>
+    <map name="workmap">
+        <area shape="rect" coords="6,2,34,35" alt="twitter" href="https://twitter.com/the_hindu?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
+        <area shape="rect" coords="52,5,84,36" alt="Facebook" href="https://www.facebook.com/thehindu/">
+        <area shape="rect" coords="97,7,130,32" alt="Instagram" href="https://www.instagram.com/the_hindu/?hl=en">
+      </map>
+  </footer>
+</body>
+</html>
