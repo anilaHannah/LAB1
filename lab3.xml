@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<news>
+   <category>
+      <cat_id>N101</cat_id>
+      <cat_details>
+         <Category_Name>Current Affairs</Category_Name>
+         <Category_Description>Cricket,Football,and other sports</Category_Description>
+      </cat_details>
+      <Author>Greeshma C S</Author>
+      <Article>Police arrested Aftab Poonawala, 28, Saturday for killing Shraddha Walkar, 27. On May 18, the two got into a fight and the accused strangled the woman, said the police.s</Article>
+      <Published_Date>May 19, 2022, 09:48:54 IST</Published_Date>
+      <Heading>Inspired by ‘Dexter’, man who killed girlfriend bought fridge to store chopped body parts, fresheners to hide smell: Delhi Police</Heading>
+   </category>
+   <category>
+      <cat_id>N102</cat_id>
+      <cat_details>
+         <Category_Name>Entertainment</Category_Name>
+         <Category_Description>Films, Series, Reality shows and all Entertainment related</Category_Description>
+      </cat_details>
+      <Author>Harishankar</Author>
+      <Article>It has been out in few corners that Vivek Oberoi and Gaurang Doshi got duped of crores of rupees by a certain Radhika and Sanjay. Well, the latest is that Sanjay has been arrested but Radhika is still absconding.</Article>
+      <Published_Date>Oct 19, 2022, 09:48:54 IST</Published_Date>
+      <Heading>Shah Rukh Khan and Shraddha Kapoor's names crop up in the Vivek Oberoi-Gaurang Doshi dupe case </Heading>
+   </category>
+   <category>
+      <cat_id>N103</cat_id>
+      <cat_details>
+         <Category_Name>Business</Category_Name>
+         <Category_Description>Cricket,Football,and other sports</Category_Description>
+      </cat_details>
+      <Author>Mary Kurien</Author>
+      <Article>Smartphone shipment in India declined by 10 per cent</Article>
+      <Published_Date>Nov 14, 2022, 20:51 IST</Published_Date>
+      <Heading>Indian smartphone market dips to 3-year low at 43 million in in September 2022 quarter: IDC</Heading>
+   </category>
+   <category>
+      <cat_id>N104</cat_id>
+      <cat_details>
+         <Category_Name>Tech</Category_Name>
+         <Category_Description>Technology stuff related news</Category_Description>
+      </cat_details>
+      <Author>Athira Nambiar</Author>
+      <Article>WhatsApp has been introducing a plethora of features recently, and a new one is under development – the "Do Not Disturb" flag for missed calls. The feature lets users know if they missed the call when their phone was in "Do Not Disturb" mode.</Article>
+      <Published_Date>Nov 14, 2022, 09:08PM IST</Published_Date>
+      <Heading>WhatsApp for Android beta adds a "Do Not Disturb" flag for missed calls</Heading>
+   </category>
+   <category>
+      <cat_id>N105</cat_id>
+      <cat_details>
+         <Category_Name>Lifestyle</Category_Name>
+         <Category_Description>Day to day life blogs, wishes</Category_Description>
+      </cat_details>
+      <Author>Rieyona Patricia</Author>
+      <Article>We got married within 7 months of meeting and it was an arranged set up. My husband often had anger fits and then suddenly he would become as sweet as a puppy. I wondered often what was wrong with him until 9 months into our marriage when I was 2 months pregnant, a relative of his blurted out the truth that he was declared bipolar by the doctors five years before our marriage</Article>
+      <Published_Date>Nov 14, 2022, 15:08 IST</Published_Date>
+      <Heading>His story/Her story: “My in-laws hid that my husband has bipolar personality disorder”</Heading>
+   </category>
+   <category>
+      <cat_id>N106</cat_id>
+      <cat_details>
+         <Category_Name>Education</Category_Name>
+         <Category_Description>Cricket,Football,and other sports</Category_Description>
+      </cat_details>
+      <Author>Ashwati Francis</Author>
+      <Article>The Consortium of Medical, Engineering, and Dental Colleges</Article>
+      <Published_Date>Nov 14, 2022, 13:41 IST</Published_Date>
+      <Heading>COMEDK 2022 Round 3 Seat Allotment Result released on comedk</Heading>
+   </category>
+   <category>
+      <cat_id>N107</cat_id>
+      <cat_details>
+         <Category_Name>Auto</Category_Name>
+         <Category_Description>Automobile and vehicle</Category_Description>
+      </cat_details>
+      <Author>Deepti Kumar</Author>
+      <Article>Pakistan is set to get its very first electric car NUR-E 75</Article>
+      <Published_Date>May 2 2022</Published_Date>
+      <Heading>Pakistan's first electric car NUR-E to launch soon</Heading>
+   </category>
+   <category>
+      <cat_id>N108</cat_id>
+      <cat_details>
+         <Category_Name>Editorials</Category_Name>
+         <Category_Description>Editors view of point, blogs</Category_Description>
+      </cat_details>
+      <Author>Hermoine</Author>
+      <Article>Indonesia’s efforts as the G20 president to bring together the world’s largest economies for post-pandemic recovery have run into very rough weather, with the grouping effectively split over the response to Russia’s invasion of Ukraine.</Article>
+      <Published_Date>Nov 14, 2022 06:50 PM IST</Published_Date>
+      <Heading>Ukraine shadow on G20 meeting</Heading>
+   </category>
+</news>

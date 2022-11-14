@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE NEWS [
+<!ELEMENT category (cat_id,cat_details,Author,Article,Published_Date,Heading)>
+<!ELEMENT cat_id (#PCDATA)>
+<!ELEMENT cat_details(Category_Name,Category_Description)>
+<!ELEMENT Category_Name(#CDATA)>
+<!ELEMENT Category_Description(#CDATA)>
+<!ELEMENT Author (#PCDATA)>
+<!ELEMENT Article (#PCDATA)>
+<!ELEMENT Published_Date(#PCDATA)>
+<!ELEMENT Heading(#PCDATA)>
+]>
