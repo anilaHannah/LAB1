@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="lab3.xsl"?>
 <news>
    <category>
       <cat_id>N101</cat_id>
