@@ -10,6 +10,33 @@
 * {
   box-sizing: border-box;
 }
+input[type=text],input[type=number], input[type=checkbox], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=button] {
+  background-color: #45a049;
+  color: white;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=button]:hover {
+  background-color: #003300;
+}
 .column {
   float: left;
   width: 33.3%;
@@ -205,7 +232,6 @@ body{
       &nbsp;<label for="email">Email:</label>&nbsp;
       <input type="email"  id="email" name="email"><br><br>&nbsp;
       <input type="button" class="but" onclick="play()" value="Submit">
-      <input type="reset" onclick="play()" class="but">
     </form>
   </div>
   </div>

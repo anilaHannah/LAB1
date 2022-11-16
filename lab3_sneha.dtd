@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE NCC [
+<!ELEMENT cadets (reg_no,name,collegename,bt_name,wing,certificates)>
+<!ELEMENT reg_no (#PCDATA)>
+<!ELEMENT name(firstname,lastname)>
+<!ELEMENT firstname(#CDATA)>
+<!ELEMENT lastname(#CDATA)>
+<!ELEMENT collegename (#PCDATA)>
+<!ELEMENT bt_name (#PCDATA)>
+<!ELEMENT wing(#PCDATA)>
+<!ELEMENT certificates(#PCDATA)>
+]>
