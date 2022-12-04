@@ -1,122 +1,101 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-* {
-  box-sizing: border-box;
-}
-
-input[type=text],input[type=number], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  resize: vertical;
-}
-
-label {
-  padding: 12px 12px 12px 0;
-  display: inline-block;
-}
-
-input[type=submit] {
-  background-color: #45a049;
-  color: white;
-  width: 100%;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  float: right;
-}
-
-input[type=submit]:hover {
-  background-color: #003300;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
-
-.col-25 {
-  float: left;
-  width: 25%;
-  margin-top: 6px;
-}
-
-.col-75 {
-  float: left;
-  width: 75%;
-  margin-top: 6px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .col-25, .col-75, input[type=submit] {
-    width: 100%;
-    margin-top: 0;
-  }
-}
-</style>
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
+<script type="text/javascript">
+function validate()
+{
+  var name=document.getElementById("fullName").value;
+  var pwd=document.getElementById("userPassword").value;
+  if(name.length<6 || pwd.length<6)
+    alert("Username and password should be atleast minimum 6 characters long");
+  else
+    alert("You're logged in");
+}
+</script>
 <body>
 
-<h2>Donation Form</h2>
-<canvas width="1025px" height="1%" style="border: 2px groove;"></canvas>
-<div class="container">
-  <form action="/action_page.php">
-  <div class="row">
-    <div class="col-25">
-      <label for="fname">Name</label>
-    </div>
-    <div class="col-75">
-      <input type="text" id="fname" name="firstname" placeholder="Your name..">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="country">Country</label>
-    </div>
-    <div class="col-75">
-      <select id="country" name="country">
-        <option value="australia">Australia</option>
-        <option value="india">India</option>
-        <option value="canada">Canada</option>
-        <option value="usa">USA</option>
-      </select>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="amt">Amount</label>
-    </div>
-    <div class="col-75">
-      <input type="number" id="amt" name="amt" placeholder="Donation Amount">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-25">
-      <label for="subject">Subject</label>
-    </div>
-    <div class="col-75">
-      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-    </div>
-  </div>
-  <br>
-  <div class="row">
-    <input type="submit" value="Submit">
-  </div>
-  </form>
-</div>
 
+<div class="container">
+       <table class="table table-striped" style="width: 45%;">
+          <tbody>
+             <tr>
+                <td colspan="1">
+                   <form class="well form-horizontal">
+                      <fieldset>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Full Name</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span><input id="fullName" name="fullName" placeholder="Full Name" class="form-control" pattern="[a-z]{4,8}" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Address Line 1</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="addressLine1" name="addressLine1" placeholder="Address Line 1" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Password</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-lock"></i></span><input id="password" name="password" placeholder="Password" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{6,10}$" class="form-control" required="true" value="" type="password"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">City</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="city" name="city" placeholder="City" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">State/Province/Region</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="state" name="state" placeholder="State/Province/Region" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Postal Code/ZIP</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span><input id="postcode" name="postcode" placeholder="Postal Code/ZIP" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Country</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group">
+                                  <span class="input-group-addon" style="max-width: 100%;"><i class="glyphicon glyphicon-list"></i></span>
+                                  <select class="selectpicker form-control">
+                                    <option>China</option>
+                                    <option>India</option>
+                                    <option>USA</option>
+                                    <option>Canada</option>
+                                    <option>Japan</option>
+                                  </select>
+                               </div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Email</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span><input id="email" name="email" placeholder="Email" class="form-control" pattern=".+@university\.in" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <div class="form-group">
+                            <label class="col-md-4 control-label">Phone Number</label>
+                            <div class="col-md-8 inputGroupContainer">
+                               <div class="input-group"><span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span><input id="phoneNumber" name="phoneNumber" placeholder="Phone Number" pattern="[0-9]{5} [0-9]{5}" class="form-control" required="true" value="" type="text"></div>
+                            </div>
+                         </div>
+                         <button type="submit" onclick="onvalidate()" class="btn btn-primary">Submit</button>
+                      </fieldset>
+                   </form>
+                </td>
+          </tbody>
+       </table>
+    </div>
+      
 </body>
 </html>
