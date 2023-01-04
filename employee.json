@@ -1,0 +1,58 @@
+[{
+    "id":1,
+    "name":"Fred Weasley",
+    "email":"2016-10-05",
+    "phone":"Male",
+    "role":59
+    },
+    {
+    "id":2,
+    "name":"Luna Lovegood",
+    "email":"2013-06-06",
+    "phone":"Female",
+    "role":120
+    },
+    {
+    "id":3,
+    "name":"Neville Longbottom",
+    "email":"2012-08-19",
+    "phone":"Male",
+    "role":1200
+    },
+    {
+    "id":4,
+    "name":"Parvati Patil",
+    "email":"2000-21-08",
+    "phone":"Female",
+    "role":345
+    },
+    {
+    "id":5,
+    "name":"Goyle M",
+    "email":"2006-11-06",
+    "phone":"Male",
+    "role":890
+    },
+    {
+    "id":6,
+    "name":"Cha Chong",
+    "email":"2005-21-05",
+    "phone":"Female",
+    "role":908
+    },
+    {
+    "id":7,
+    "name":"Ginny Weasley",
+    "email":"2016-10-06",
+    "phone":"Female",
+    "role":900
+ 
+ },
+    {
+       "id":8,
+       "name":"Navila Jay",
+    "email":"2018-21-11",
+    "phone":"Female",
+    "role":560
+ }
+    ]

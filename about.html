@@ -1,0 +1,23 @@
+<div>
+    <h1 style="font-family: 'DynaPuff';font-size: 35px;color: #330033;height: 1rem;background-color: blue;"></h1>
+    <div class="container-fluid px-5 py-3">
+        <table class="table table-sm table-dark">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Date Joined</th>
+                    <th>Gender</th>
+                    <th>Days Active</th>
+                </tr>
+            </thead>
+            <tbody ng-repeat="emp in employees">
+                <tr>
+                    <td>{{emp.name | uppercase}}</td>
+                    <td>{{emp.email}}</td>
+                    <td>{{emp.phone}}</td>
+                    <td>{{emp.role | lowercase}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
